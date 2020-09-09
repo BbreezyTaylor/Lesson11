@@ -3,6 +3,14 @@ img {
 }
 
 body {
-    background: #ffcceb;
-    background-image: linear-gradient(#ffcceb, rgb(255, 255, 255));
+    background-image: linear-gradient(#f9faaf, rgb(255, 255, 255));
+    color: #400080;
+}
+
+p {
+    color: black;
+}
+
+.graDeTks {
+    text-align: center;
 }
