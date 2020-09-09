@@ -1,3 +1,8 @@
 img {
     width: 300px;
 }
+
+body {
+    background: #ffcceb;
+    background-image: linear-gradient(#ffcceb, rgb(255, 255, 255));
+}
