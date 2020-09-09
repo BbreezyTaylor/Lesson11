@@ -7,10 +7,47 @@ body {
     color: #400080;
 }
 
+header {
+    border: 3px solid white;
+    background-color: #f9faaf;
+    margin: 0% 1.5% 3% 1.5%;
+    padding: .15vw;
+    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
+}
+
+.portPic {
+    width: 15%;
+    float: right;
+}
+
+.centerHead {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vw;
+    color: 400080;
+}
+
 p {
     color: black;
 }
 
+.content {
+    clear: both;
+}
+
 .graDeTks {
     text-align: center;
+}
+
+footer {
+    clear: both;
+    border: 3px solid white;
+    background-color: #f9faaf;
+    text-align: center;
+    color: #400080;
+    margin: 0% 1.5% 3% 1.5%;
+    padding: .15vw;
+    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
 }
