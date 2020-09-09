@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    border: 3px solid white;
+    border: 3px solid #400080;
     background-color: #f9faaf;
     margin: 0% 1.5% 3% 1.5%;
     padding: .15vw;
@@ -25,8 +25,9 @@ header {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 8vw;
     color: 400080;
+    font-family: 'Noticia Text', serif;
 }
 
 p {
@@ -35,15 +36,43 @@ p {
 
 .content {
     clear: both;
+    border: 3px solid #400080;
+    background-color: #f9faaf;
+    text-align: center;
+    color: #400080;
+    margin: 0% 1.5% 3% 1.5%;
+    padding: .15vw;
+    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
+}
+
+.feat {
+    clear: both;
+    border: 3px solid #400080;
+    background-color: #f9faaf;
+    text-align: center;
+    color: #400080;
+    margin: 0% 1.5% 3% 1.5%;
+    padding: .15vw;
+    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
 }
 
 .graDeTks {
     text-align: center;
 }
 
+.work {
+    border: 3px solid #400080;
+    background-color: #f9faaf;
+    text-align: center;
+    color: #400080;
+    margin: 0% 1.5% 3% 1.5%;
+    padding: .15vw;
+    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
+}
+
 footer {
     clear: both;
-    border: 3px solid white;
+    border: 3px solid #400080;
     background-color: #f9faaf;
     text-align: center;
     color: #400080;
