@@ -1,4 +1,13 @@
-img {
+body {
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+
+/*img {
     width: 300px;
 }
 
