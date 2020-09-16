@@ -2,90 +2,38 @@ body {
     margin: 0;
 }
 
-.left {
+.container {
+    overflow: hidden;
+    background-color: burlywood;
+}
+
+aside {
+    background-color: #cccccc;
     float: left;
+    width: 350px;
 }
 
-
-/*img {
-    width: 300px;
+.photo {
+    background-color: chartreuse;
 }
 
-body {
-    background-image: linear-gradient(#f9faaf, rgb(255, 255, 255));
-    color: #400080;
+.cent {
+    text-align: center;
+    background-color: darkcyan;
 }
 
 header {
-    border: 3px solid #400080;
-    background-color: #f9faaf;
-    margin: 0% 1.5% 3% 1.5%;
-    padding: .15vw;
-    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
-}
-
-.portPic {
-    width: 15%;
-    float: right;
-}
-
-.centerHead {
     text-align: center;
-}
-
-h1 {
-    font-size: 8vw;
-    color: 400080;
-    font-family: 'Noticia Text', serif;
-}
-
-p {
-    color: black;
 }
 
 .content {
-    clear: both;
-    border: 3px solid #400080;
-    background-color: #f9faaf;
-    text-align: center;
-    color: #400080;
-    margin: 0% 1.5% 3% 1.5%;
-    padding: .15vw;
-    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
+    background-color: darkred;
 }
 
 .feat {
     clear: both;
-    border: 3px solid #400080;
-    background-color: #f9faaf;
-    text-align: center;
-    color: #400080;
-    margin: 0% 1.5% 3% 1.5%;
-    padding: .15vw;
-    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
-}
-
-.graDeTks {
-    text-align: center;
-}
-
-.work {
-    border: 3px solid #400080;
-    background-color: #f9faaf;
-    text-align: center;
-    color: #400080;
-    margin: 0% 1.5% 3% 1.5%;
-    padding: .15vw;
-    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
 }
 
 footer {
     clear: both;
-    border: 3px solid #400080;
-    background-color: #f9faaf;
-    text-align: center;
-    color: #400080;
-    margin: 0% 1.5% 3% 1.5%;
-    padding: .15vw;
-    box-shadow: -1vw 1.5vw 1.5vw -.5vw #400080;
 }
