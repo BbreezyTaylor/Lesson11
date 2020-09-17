@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    margin: 0;
     background-color: #ffe6e6;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 ul li {
@@ -18,36 +18,42 @@ ul li {
     list-style: none;
 }
 
+ol li {
+    list-style: none;
+}
+
 .container {
-    overflow: hidden;
     background-color: #ffe6e6;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 aside {
     background-color: #ffe6e6;
-    float: left;
     width: 350px;
-}
-
-.photo {
-    background-color: #cccccc;
+    float: left;
+    padding: 10px;
 }
 
 .cent {
     text-align: center;
     background-color: #cccccc;
+    padding: 5px;
+    border-top: #ffe6e6 2px;
 }
 
 header {
-    text-align: center;
+    font-size: 2.5vw;
+    margin: 0;
 }
 
-main {
-    border-left: #cccccc 2px;
-}
+main {}
 
 .content {
-    border-left: #cccccc 2px;
+    width: 900px;
+    float: left;
+    padding: 20px;
 }
 
 .feature:after {
@@ -63,9 +69,9 @@ main {
 }
 
 .block {
-    float: left;
-    padding: 2px;
-    background-color: #cccccc;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
