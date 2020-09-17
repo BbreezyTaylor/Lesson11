@@ -1,39 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
+    background-color: #ffe6e6;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
 }
 
 .container {
     overflow: hidden;
-    background-color: burlywood;
+    background-color: #ffe6e6;
 }
 
 aside {
-    background-color: #cccccc;
+    background-color: #ffe6e6;
     float: left;
     width: 350px;
 }
 
 .photo {
-    background-color: chartreuse;
+    background-color: #cccccc;
 }
 
 .cent {
     text-align: center;
-    background-color: darkcyan;
+    background-color: #cccccc;
 }
 
 header {
     text-align: center;
 }
 
+main {
+    border-left: #cccccc 2px;
+}
+
 .content {
-    background-color: darkred;
+    border-left: #cccccc 2px;
+}
+
+.feature:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .feat {
     clear: both;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.block {
+    float: left;
+    padding: 2px;
+    background-color: #cccccc;
 }
 
 footer {
+    clear: both;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
     clear: both;
 }
