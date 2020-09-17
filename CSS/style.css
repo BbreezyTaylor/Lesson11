@@ -15,17 +15,15 @@ body {
     font-size: 1vw;
 }
 
-h2 {
-    color: black;
+.removeIndent {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
 
-ul li {
+a {
     text-decoration: none;
-    list-style: none;
-}
-
-ol li {
-    list-style: none;
+    color: black;
 }
 
 .container {
@@ -41,17 +39,34 @@ aside {
     float: left;
     padding: 10px;
     color: #ffe6f3;
+    text-shadow: .10vw .10vw black;
 }
 
 .cent {
     text-align: center;
     background-color: #454746;
     padding: 5px;
+    border-top: #ffe6f3 5px;
 }
 
 header {
     font-size: 2.5vw;
     margin: 0;
+}
+
+.emphasis {
+    color: black;
+    text-shadow: .10vw .10vw #ffe6f3;
+}
+
+.greyback {
+    background-color: #454746;
+    background-image: linear-gradient(#ffe6f3, #454746);
+    width: 900px;
+    margin: 0 auto;
+    color: #ffe6f3;
+    text-shadow: .10vw .10vw black;
+    padding: 10px;
 }
 
 .content {
@@ -68,15 +83,12 @@ header {
     color: black;
     padding-top: 1px;
     padding-bottom: 1px;
+    text-shadow: .10vw .10vw #ffe6f3;
 }
 
-.greyback {
-    background-color: #454746;
-    background-image: linear-gradient(#ffe6f3, #454746);
-    width: 900px;
-    margin: 0 auto;
-    color: #ffe6f3;
-    padding: 10px;
+.pink {
+    padding-bottom: 1px;
+    text-shadow: .10vw .10vw #ffe6f3;
 }
 
 .feature:after {
@@ -101,10 +113,13 @@ header {
 
 footer {
     clear: both;
-    background-color: #ffe6f3;
-    background-image: linear-gradient(white, #ffe6f3);
+    background-color: #454746;
+    background-image: linear-gradient(#ffe6f3, #454746);
+    width: 1250px;
     text-align: center;
     margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icons {
@@ -112,8 +127,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    background-color: #ffe6f3;
-    background-image: linear-gradient(white, #ffe6f3);
 }
 
 .clearfix:after {
