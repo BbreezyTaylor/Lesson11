@@ -48,12 +48,16 @@ header {
     margin: 0;
 }
 
-main {}
-
 .content {
     width: 900px;
     float: left;
     padding: 20px;
+}
+
+.greyhead {
+    background-color: #cccccc;
+    width: 1250px;
+    margin: 0 auto;
 }
 
 .feature:after {
@@ -64,7 +68,7 @@ main {}
 
 .feat {
     clear: both;
-    background-color: #cccccc;
+    background-color: #ffe6e6;
     text-align: center;
 }
 
@@ -72,12 +76,21 @@ main {}
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    padding: 3px;
 }
 
 footer {
     clear: both;
     background-color: #cccccc;
     text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #cccccc;
 }
 
 .clearfix:after {
