@@ -9,10 +9,8 @@ html {
 }
 
 body {
-    background-color: #ffe6f3;
-    background-image: linear-gradient(#ffe6f3, white);
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1vw;
+    font-size: .95vw;
 }
 
 .removeIndent {
@@ -27,15 +25,15 @@ a {
 }
 
 .container {
-    background-color: #ffe6f3;
-    width: 1250px;
+    width: 900px;
     margin: 0 auto;
+    margin-top: 0;
     padding: 60px 0;
 }
 
 aside {
     background-color: #454746;
-    width: 350px;
+    width: 300px;
     float: left;
     padding: 10px;
     color: #ffe6f3;
@@ -49,9 +47,56 @@ aside {
     border-top: #ffe6f3 5px;
 }
 
-header {
-    font-size: 2.5vw;
+header h1 {
+    float: left;
+    width: 600px;
+    font-size: 3vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffe6f3;
+}
+
+#nav {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar,
+#navbar ul {
+    padding: 0;
     margin: 0;
+    list-style: none;
+    line-height: 1;
+}
+
+#navbar a {
+    display: block;
+    width: 125px;
+}
+
+#navbar li {
+    float: left;
+    width: 125px;
+    /*width helps with Opera*/
+    ;
+}
+
+#navbar li ul {
+    position: absolute;
+    background: #454746;
+    color: #ffe6f3;
+    width: 125px;
+    left: -999em;
+    /*remember to do this instead of display:none because it isn't read by screen readers*/
+}
+
+#navbar li:hover ul {
+    left: auto;
+}
+
+#navbar li ul li:hover {
+    background-color: #ffe6f3;
+    color: #454746;
 }
 
 .emphasis {
@@ -62,7 +107,7 @@ header {
 .greyback {
     background-color: #454746;
     background-image: linear-gradient(#ffe6f3, #454746);
-    width: 900px;
+    width: 580px;
     margin: 0 auto;
     color: #ffe6f3;
     text-shadow: .10vw .10vw black;
@@ -70,15 +115,18 @@ header {
 }
 
 .content {
-    width: 900px;
+    width: 600px;
     float: left;
     padding: 20px;
+    font-size: .80vw;
+    background-color: #ffe6f3;
 }
 
 .greyhead {
+    clear: both;
     background-color: #454746;
     background-image: linear-gradient( #454746, #ffe6f3);
-    width: 1250px;
+    width: 900px;
     margin: 0 auto;
     color: black;
     padding-top: 1px;
@@ -115,7 +163,7 @@ footer {
     clear: both;
     background-color: #454746;
     background-image: linear-gradient(#ffe6f3, #454746);
-    width: 1250px;
+    width: 900px;
     text-align: center;
     margin-top: 6px;
     margin-left: auto;
