@@ -122,6 +122,13 @@ header h1 {
     background-color: #ffe6f3;
 }
 
+.block {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    text-align: center;
+}
+
 .greyhead {
     clear: both;
     background-color: #454746;
@@ -139,24 +146,27 @@ header h1 {
     text-shadow: .10vw .10vw #ffe6f3;
 }
 
-.feature:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
+/*
+Saved old code used
 #feat {
     clear: both;
     text-align: center;
     margin-top: 6px;
 }
 
-.block {
+.block 
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 6px;
     padding: 4px;
+}{*/
+
+.feature:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 footer {
@@ -181,4 +191,22 @@ footer {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/*for mobile-first*/
+
+@media screen and (min-width: 750px) {}
+
+
+/*for Desktop-first*/
+
+@media screen and (max-width: 750px) {
+    .block {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6px;
+        padding: 4px;
+    }
 }
