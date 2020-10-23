@@ -1,3 +1,29 @@
-background {
-    background-color: aqua;
+body {
+    background-color: black;
+    color: cornsilk;
 }
+
+.block {
+    float: left;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen {}
