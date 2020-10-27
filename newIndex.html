@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Prototype Design</title>
-    <link rel="stylesheet" href="CSS/newStyle.css">
+    <link rel="stylesheet" href="CSS/newNewStyles.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
@@ -17,12 +17,12 @@
                 <h1>Brittani Bree Ann Taylor</h1>
             </header>
         </div>
-        <div class="grid-item photo"><img srcset=" images/portraitPhoto75.png 75w, images/portraitPhoto150.png 150w, images/portraitPhoto250.png 250w" sizes="(max-width: 600px) 150px , 300px" src="images/portraitPhoto250.png" alt="Profile picture of Brittani Bree Ann Taylor"></div>
+        <div class="grid-item photo"><img srcset=" images/portraitPhoto75.png 75w, images/portraitPhoto150.png 150w, images/portraitPhoto250.png 250w" sizes="(max-width: 600px) 75px , 300px" src="images/portraitPhoto250.png" alt="Profile picture of Brittani Bree Ann Taylor"></div>
         <div class="grid-item navBar">
             <nav>
                 <ul id="navbar">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#left">About</a></li>
+                    <li><a href="#contact">About</a></li>
                     <li><a href="#feat">Featured Projects</a>
                         <ul>
                             <li>Flyers</li>
@@ -34,56 +34,64 @@
                 </ul>
             </nav>
         </div>
-    </div>
 
-    <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-    <section>
-        <h2>Featured Projects (...for now)</h2>
-        <div class="wrapper">
+
+        <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+        <h2 class="grid-item" id="feat">Featured Projects (...for now)</h2>
+
+        <div class="firstFeat">
             <div class="block first ">
-                <img srcset="images/wineTastingFlyer75.jpg 75w, images/wineTastingFlyer150.jpg 150w, images/wineTastingFlyer300.jpg 300w" sizes="(max-width: 600px) 150px , 300px" src="images/wineTastingFlyer300.jpg" alt="Wine tasting flyer I created using a photo of a vine yard with two glasses of wine and a bottle on a barrel. Underneath, I used a wine colored background to contrast the font detailing the event.">
+                <img srcset="images/wineTastingFlyer75.jpg 75w, images/wineTastingFlyer150.jpg 150w, images/wineTastingFlyer200.jpg 200w" sizes="(max-width: 1200px) 75px , 200px" src="images/wineTastingFlyer300.jpg" alt="Wine tasting flyer I created using a photo of a vine yard with two glasses of wine and a bottle on a barrel. Underneath, I used a wine colored background to contrast the font detailing the event.">
             </div>
             <div class="block second">
-                <img srcset="images/yogaFlyer75.jpg 75w, images/yogaFlyer150.jpg 150w, images/yogaFlyer300.jpg 300w" sizes="(max-width: 600px) 150px , 300px" src="images/yogaFlyer300.jpg" alt="Yoga Classes Flyer I created using a peaceful nature setting with a woman in a yoga pose.">
+                <img srcset="images/yogaFlyer75.jpg 75w, images/yogaFlyer150.jpg 150w, images/yogaFlyer200.jpg 200w" sizes="(max-width: 1200px) 75px , 200px" src="images/yogaFlyer300.jpg" alt="Yoga Classes Flyer I created using a peaceful nature setting with a woman in a yoga pose.">
             </div>
             <div class="block third ">
-                <img srcset="images/golfFlyer75.jpg 75w, images/golfFlyer150.jpg 150w, images/golfFlyer300.jpg 300w" sizes="(max-width: 600px) 150px , 300px" src="images/golfFlyer300.jpg" alt="Junior Golf flyer I created using green background and white contrasting font. There are also two photos on the advertisement of children golfing and having a good time. ">
+                <img srcset="images/golfFlyer75.jpg 75w, images/golfFlyer150.jpg 150w, images/golfFlyer200.jpg 200w" sizes="(max-width: 1200px) 75px , 200px" src="images/golfFlyer300.jpg" alt="Junior Golf flyer I created using green background and white contrasting font. There are also two photos on the advertisement of children golfing and having a good time. ">
             </div>
             <div class="block fourth">
-                <img srcset="images/mother'sDayFlyer75.jpg 75w, images/mother'sDayFlyer150.jpg 150w, images/mother'sDayFlyer300.jpg 300w" sizes="(max-width: 600px) 150px , 300px" src="images/mother'sDayFlyer300.jpg" alt="Mother's Day Brunch Flyer I created using pink roses and tied in the pink but using it for the font detailing the menu options.">
-            </div>
-            <div class="block larger1">
-                <img srcset="  images/firstWebPageInWeb210_300.jpg 300w, images/firstWebPageInWeb210_600.jpg 600w" sizes="(max-width: 600px) 300px , 600px" src="images/firstWebPageInWeb210_600.jpg" alt="Screenshot of the first website I created in Web 210. It's a profile website with a portrait of myself, a purple background, and and introduction">
-            </div>
-            <div class="block larger2">
-                <img srcset=" images/memberWebsite300.jpg 300w, images/memberWebsite600.jpg 600w" sizes="(max-width: 600px) 300px , 600px" src="images/memberWebsite600.jpg" alt="Screenshot of a member website I helped maintain while I was working with this company. Shows the simple to use login page with a photo of the country club at the top of the website page.">
+                <img srcset="images/mother'sDayFlyer75.jpg 75w, images/mother'sDayFlyer150.jpg 150w, images/mother'sDayFlyer200.jpg 200w" sizes="(max-width: 1200px) 75px , 200px" src="images/mother'sDayFlyer300.jpg" alt="Mother's Day Brunch Flyer I created using pink roses and tied in the pink but using it for the font detailing the menu options.">
             </div>
         </div>
-        <!-- End of Project block. -->
-    </section>
-    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-    <footer>
-        <h2>Contact Me Below</h2>
+        <div class="secondFeat">
+            <div class="block larger1">
+                <img srcset=" images/firstWebPageInWeb210_150.jpg 150w, images/firstWebPageInWeb210_300.jpg 300w, images/firstWebPageInWeb210_400.jpg 400w" sizes="(max-width: 1200px) 150px , 400px" src="images/firstWebPageInWeb210_600.jpg" alt="Screenshot of the first website I created in Web 210. It's a profile website with a portrait of myself, a purple background, and and introduction">
+            </div>
+            <div class="block larger2">
+                <img srcset=" images/memberWebsite150.jpg 150w, images/memberWebsite300.jpg 300w, images/memberWebsite400.jpg 400w" sizes="(max-width: 1200px) 150px , 400px" src="images/memberWebsite600.jpg" alt="Screenshot of a member website I helped maintain while I was working with this company. Shows the simple to use login page with a photo of the country club at the top of the website page.">
+            </div>
+        </div>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul class=" contact-list ">
-            <li class="icons ">
-                <a href="mailto:bbreezytaylorwebdesign@gmail.com "><img src="images/mailIcon.png " alt="bbreezytaylorwebdesign@gmail.com "></a>
-            </li>
-            <li class="icons ">
-                <a href="tel:000-000-0000 "><img src="images/phoneIcon.png " alt="fake phone 000-000-0000 "></a>
-            </li>
-            <li class="icons ">
-                <a href="https://www.linkedin.com/in/brittani-taylor-a5a774186" target="_blank"><img src="images/linkedinIcon.png " alt="LinkedIn Account "></a>
-            </li>
-            <li class="icons ">
-                <a href="https://www.instagram.com/bbreezytaylorwebdesigns/" target="_blank"><img src="images/instaIcon.png " alt="https://www.instagram.com/bbreezytaylorwebdesigns/ "></a>
-            </li>
-            <li class="icons ">
-                <a href="https://www.facebook.com/bree.taylor.14203544" target="_blank"><img src="images/facebookIcon.png" alt="https://www.facebook.com/bree.taylor.14203544"></a>
-            </li>
-        </ul>
-    </footer>
+
+        <!-- End of Project block. -->
+
+        <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+        <div class="grid-item" id="contact">
+            <footer>
+                <h2>Contact Me Below</h2>
+
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <ul class=" contact-list ">
+                    <li class="icons ">
+                        <a href="mailto:bbreezytaylorwebdesign@gmail.com "><img src="images/mailIcon.png " alt="bbreezytaylorwebdesign@gmail.com "></a>
+                    </li>
+                    <li class="icons ">
+                        <a href="tel:000-000-0000 "><img src="images/phoneIcon.png " alt="fake phone 000-000-0000 "></a>
+                    </li>
+                    <li class="icons ">
+                        <a href="https://www.linkedin.com/in/brittani-taylor-a5a774186" target="_blank"><img src="images/linkedinIcon.png " alt="LinkedIn Account "></a>
+                    </li>
+                    <li class="icons ">
+                        <a href="https://www.instagram.com/bbreezytaylorwebdesigns/" target="_blank"><img src="images/instaIcon.png " alt="https://www.instagram.com/bbreezytaylorwebdesigns/ "></a>
+                    </li>
+                    <li class="icons ">
+                        <a href="https://www.facebook.com/bree.taylor.14203544" target="_blank"><img src="images/facebookIcon.png" alt="https://www.facebook.com/bree.taylor.14203544"></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+    </div>
 </body>
 
 </html>
