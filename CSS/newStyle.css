@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: pink;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.25vw;
+    text-shadow: #ffe6f3 1px 0 10px;
+    text-align: center;
+}
+
+a {
+    color: #000;
+}
+
+.header {
+    box-shadow: pink 1px 0 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+.header li a {
+    display: block;
+    color: pink;
+    outline: 1px solid pink;
+    padding: 20px;
+    border-right: 1px solid #ffe6f3;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #ddd;
+}
+
+.header .photo {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+.header .name {
+    float: left;
+    font-size: 1.5rem;
+}
+
+
+/*menu*/
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/*menu icon */
+
+.header .menu-icon {
+    outline: 1px solid red;
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .nav-icon:before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2 ease-out;
+    top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2 ease-out;
+    top: -5px;
+}
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 400px;
+}
+
+.header .menu-btn:checked~.menu-icon .nav-icon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.header .menu-btn:checked~.menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    margin: auto;
+    max-width: 1200px;
+    column-gap: 5px;
+    row-gap: 15px;
+}
+
+.firstFeat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+.secondFeat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-row: 5/6;
+    grid-column: 1/3;
+}
+
+footer {
+    border: 2px solid pink;
+    box-shadow: pink 1px 0 10px;
+    margin: 20px 0 20px 0;
+}
+
+.icons {
+    box-shadow: pink 1px 0 10px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+#contact {
+    grid-row: 6/7;
+    grid-column: 1/3;
+}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.contact-list a {
+    display: inline-block;
+}
+
+
+/* 48em = 768px @ 16pt font */
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .menu {
+        clear: both;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}
